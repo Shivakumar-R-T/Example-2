@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Content from './Content';
+import Topic3 from './Topic3';
+import RenderingMultipleComponentsOrElement from './RenderingMultipleComponentsOrElement';
+import ValidateTheForm from './ValidateTheForm';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Topic3 isLoggedIn={false} /> */}
+      <RenderingMultipleComponentsOrElement />
+      {/* <ValidateTheForm /> */}
     </div>
   );
 }
